@@ -3,7 +3,7 @@ export const ColorfullMessage = ({ color, children: message }) => {
     const contentStyle = {
         color,
         fontSize: "18px",
-      };
+    };
 
     return (
         <p style={contentStyle}>{message}</p>
